@@ -3,6 +3,8 @@ DESTDIR ?=
 BINDIR ?= $(PREFIX)/bin
 export GO111MODULE := on
 
+#
+
 all: generate-version-and-build
 
 MAKEFLAGS += --no-print-directory
